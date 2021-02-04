@@ -274,7 +274,7 @@ metadata:
     name: load-test
   namespace: sock-shop-loadtest
 spec:
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       name: load-test
