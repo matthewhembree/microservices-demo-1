@@ -272,12 +272,12 @@ metadata:
   name: load-test
   labels:
     name: load-test
-  namespace: loadtest
+  namespace: sock-shop-loadtest
 spec:
   replicas: 2
   selector:
     matchLabels:
-      name: sock-shop-loadtest
+      name: load-test
   template:
     metadata:
       labels:
