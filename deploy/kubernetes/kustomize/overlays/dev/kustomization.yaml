@@ -1,11 +1,14 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-commonLabels:
+commonAnnotations:
   # TODO: Make sure this isn't propagated to the ArgoCD Apps, but just to ArgoCD resources.
   # TODO: Verify that this doesn't cause problems when automatically added to `selectors`.
-  label_c2fo_team: devops-argocd
-  label_oncall_team: matthew_hembree
+  c2fo.com/c2fo_team: devops-argocd
+  c2fo.com/oncall_team: matthew_hembree
+
+namePrefix: hembreetest-
+nameSuffix: -dev
 
 resources:
   - ../../base

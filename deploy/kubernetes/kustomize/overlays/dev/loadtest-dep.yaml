@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: load-test
-  namespace: loadtest
+  labels:
+    name: load-test
+  namespace: sock-shop-loadtest
 spec:
   replicas: 0
