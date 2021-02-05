@@ -7,9 +7,6 @@ commonAnnotations:
   c2fo.com/c2fo_team: devops-argocd
   c2fo.com/oncall_team: matthew_hembree
 
-namePrefix: hembreetest-
-nameSuffix: -dev
-
 resources:
   - ../../base
 
