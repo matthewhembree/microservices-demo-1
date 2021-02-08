@@ -4,6 +4,6 @@ metadata:
   name: load-test
   labels:
     name: load-test
-  namespace: sock-shop-loadtest
+  namespace: sock-shop
 spec:
   replicas: 0
