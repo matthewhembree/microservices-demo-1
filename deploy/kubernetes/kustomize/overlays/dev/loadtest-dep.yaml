@@ -6,4 +6,4 @@ metadata:
     name: load-test
   namespace: sock-shop
 spec:
-  replicas: 0
+  replicas: 1
