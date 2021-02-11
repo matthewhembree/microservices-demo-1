@@ -19,7 +19,7 @@ patchesJson6902:
       kind: Service
       version: v1
       name: front-end
-      namespace: sockshop
+      namespace: sock-shop
     patch: |-
       - op: remove
         path: /spec/ports/0/nodePort
