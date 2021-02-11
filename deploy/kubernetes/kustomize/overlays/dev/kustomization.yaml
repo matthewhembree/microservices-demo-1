@@ -13,3 +13,4 @@ resources:
 patchesStrategicMerge:
   - loadtest-dep.yaml
   - sock-shop-ns.yaml
+  - front-end-svc.yaml
