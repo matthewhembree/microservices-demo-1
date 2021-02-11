@@ -17,8 +17,9 @@ patchesStrategicMerge:
 patchesJson6902:
   - target:
       kind: Service
-      name: front-end
       version: v1
+      name: front-end
+      namespace: sockshop
     patch: |-
       - op: remove
         path: /spec/ports/0/nodePort
